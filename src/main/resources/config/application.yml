@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: FutureBot
+  config:
+    name: FutureBot
+    activate:
+      on-profile: dev
+      on-cloud-platform: none
+
+server:
+  port: 8222
+  servlet:
+    session:
+      cookie:
+        http-only: true
